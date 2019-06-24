@@ -1,0 +1,46 @@
+body{
+	background-image: url(../img/Fondomapa.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+nav{
+	background-color: rgba(0,0,0,.6);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	z-index: 99;
+}
+
+nav a > img{
+	height: 63px;
+	margin-left: 110px;
+	vertical-align: bottom;
+}
+
+nav ul{
+	display: inline-block;
+	position: absolute;
+	margin-left: 110px;
+	margin-top: 10px;
+}
+
+
+nav ul > li {
+	list-style: none;
+	display: inline;
+	background-color: black;
+	padding: 15px 50px;
+	margin-right: -7px;
+	font-size: 30px;
+}
+
+
+li a{
+	text-decoration: none;
+	color: white;
+}

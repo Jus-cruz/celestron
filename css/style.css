@@ -1,0 +1,248 @@
+body{
+	background-image: url(../img/telescopio.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	display: inline-block;
+}
+
+
+	
+
+
+@media screen and (max-width: 1800px) and (min-width: 990px){
+
+	nav .arriba{
+		background-color: #3E4554;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	z-index: 99;
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	display: inline-block;
+
+	}
+
+	
+}
+
+nav{
+	background-color: #3E4554;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	z-index: 99;
+	font-family: Copperplate / Copperplate Gothic Light, sans-serif;
+	display: inline-block;
+}
+
+nav a > img{
+	height: 63px;
+	margin-left: 110px;
+	vertical-align: bottom;
+}
+
+nav ul{
+	display: inline-block;
+	position: absolute;
+	margin-left: 110px;
+	margin-top: 10px;
+}
+
+
+nav ul > li {
+	list-style: none;
+	display: inline;
+	background-color: #3E4554;
+	padding: 15px 50px;
+	margin-right: -7px;
+	font-size: 30px;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+footer{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	background-color: #79B3FB;
+	padding-top: 12px;
+}
+
+.redes{
+	display: inline-block;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	color: white;
+	font-size: 15px;
+}
+
+.redes a > img{
+	height: 45px;
+	vertical-align: middle;
+}
+
+footer > span{
+	float: right;
+	color: white;
+	position: relative;
+	top: 25%;
+	font-size: 12px;
+}
+
+footer div + span{
+	float: top;
+	right: 550px;
+	font-size: 15px;
+}
+
+
+main{
+	position: relative;
+	top: 70px;
+	display:inline-block;
+	padding-bottom: 90px;
+	width: 100px;
+}
+
+h1{
+	font-size : 24px center;
+	color: white;
+	font-family: Century Gothic, sans-serif;
+}
+
+
+
+
+#primeraseccion{
+
+	text-align: center;
+}
+
+
+#primeraseccion{
+
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: 10px solid #F1804E;
+}
+
+
+
+
+.planeta{
+
+	
+	text-align: center;
+	padding: 18% 24%;
+	border-top: 10px solid  #F1804E;
+	margin: 105px 0 60px;
+	background: url("../img/planetas1.jpg") no-repeat center;
+}
+
+
+
+
+.intro{
+	color: white;
+	font-size: 50px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.imagentelescopio img{
+	border-image: 35px;
+	border-color: #A3A3A9 100px;
+
+	height: 200px;
+	right: 150px;
+}
+
+#parrafo1{
+	background: #51515C;
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 65px;
+}
+
+
+
+
+
+main{
+	position: relative;
+	top: 70px;
+	display: inline-block;
+	padding-bottom: 90px;
+	width: 90%
+}
+
+.contenedor{
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#bienvenida {
+	text-align: center;
+	color: #50A947;
+	font-size: 75px;
+	letter-spacing: 4px;
+}
+
+
+li > span {
+
+	font-size: 35px;
+	vertical-align: middle;
+	background-image: linear-gradient(to right, green, white,red);
+	text-shadow: 1px 1px 1px peru;
+}
+
+
+
+#productos{
+	text-align: center;
+	color: white;
+	font-size: 75px;
+	letter-spacing: 4px;
+}
+
+.listado{
+	background-color: rgba(255,255,255,0.8);
+	width: 30%;
+	height: 500px;
+	border-radius: 0 0 0 20px;
+	display: inline-block;
+	margin: 0px 70px;
+}
+
+.card{
+	box-shadow: 5px 7px 8px 0 rgba(0,0,0,0.3);
+	width: 100%;
+	border-radius: 0px 20px;
+	background-color: white;
+	color: #7F0808;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.contenedor_card {
+	padding: 2px 16px;
+}
+
+h2{
+	color: white;
+	text-align: center;
+}
+
+}
+
